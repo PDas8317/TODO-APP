@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    background-color: rgb(250, 250, 170);
+}
+
+/* .inpCont {
+    border: none;
+} */
+
+input {
+    background-color: rgb(222, 223, 215);
+    height: 35px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+.addBtn {
+    background-color: rgb(222, 223, 215);
+    height: 35px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border: none;
+    background-color: orange;
+}
+
+
+.lists {
+    width: 600px;
+    border: 2px solid black;
+    background-color: blue;
+    border-radius: 20px;
+    margin: auto;
+}
+
+li {
+    width: 250px;
+    height: 25px;
+    list-style: none;
+    background-color: rgb(152, 238, 190);
+    /* line-height: 25px; */
+    border: 2px solid rgb(10, 8, 8);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.delete {
+    border: none;
+}
+
+.delete i {
+    background-color: none;
+    color: black;
+}
